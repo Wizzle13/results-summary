@@ -1,0 +1,17 @@
+:root {
+// Primary
+    --reaction: hsl(0, 100%, 67%);
+    --memory: hsl(39, 100%, 56%);
+    --verbal: hsl(166, 100%, 37%);
+    --visual: hsl(234, 85%, 45%);
+// Gradients
+    --result-bg-start: hsl(252, 100%, 67%);
+    --result-bg-end: hsl(241, 81%, 54%);
+    --result-circle-start: hsla(256, 72%, 46%, 1);
+    --result-circle-end: hsla(241, 72%, 46%, 0);
+// Neutral
+    --background: hsl(0, 0%, 100%);
+    --catagoty-bg: hsl(221, 100%, 96%);
+    --button-hover: hsl(241, 100%, 89%);
+    --button: hsl(224, 30%, 27%);
+}
