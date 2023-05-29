@@ -1,0 +1,33 @@
+.results {
+    color: var(--result-text);
+    background: var(--result-bg-start);
+    border-radius: 25px;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+}
+.summary {
+    background: var(--background);
+    border-radius: 25px;
+
+    &--reaction {
+        color: var(--reaction);
+    }
+
+    &--memory {
+        color: var(--memory);
+    }
+
+    &--verbal {
+        color: var(--verbal);
+    }
+
+    &--visual {
+        color: var(--visual);
+    }
+}
+.catagory {
+    background: var(--catagoty-bg);
+    width: 150px;
+    border-radius: 50px;
+}
