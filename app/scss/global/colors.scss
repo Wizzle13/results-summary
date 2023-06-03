@@ -1,9 +1,13 @@
 :root {
 // Primary
     --reaction: hsl(0, 100%, 67%);
+    --reaction-bg: hsla(0, 100%, 67%, 0.1);
     --memory: hsl(39, 100%, 56%);
+    --memory-bg: hsla(39, 100%, 56%, 0.1);
     --verbal: hsl(166, 100%, 37%);
+    --verbal-bg: hsla(166, 100%, 37%, 0.1);
     --visual: hsl(234, 85%, 45%);
+    --visual-bg: hsla(234, 85%, 45%, 0.1);
 // Gradients
     --result-bg-start: hsl(252, 100%, 67%);
     --result-bg-end: hsl(241, 81%, 54%);

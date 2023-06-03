@@ -1,33 +1,63 @@
+@use '../util' as *;
+
+.card {
+    
+    display: flex;
+    flex: auto;
+    background: var(--background);
+    border-radius: 25px;
+    box-shadow: 10px 10px var(--catagoty-bg);
+    width: min-content;
+    
+}
 .results {
     color: var(--result-text);
     background: var(--result-bg-start);
-    border-radius: 25px;
-    height: 400px;
-    width: 300px;
+    border-radius: rem(25);
+    height: rem(400);
+    width: rem(300);
+    
     text-align: center;
+
+    &--circle{
+        background: var(--result-circle-start);
+        border-radius: rem(50);
+        width: rem(100);
+        height: rem(100);
+
+    }
 }
 .summary {
-    background: var(--background);
-    border-radius: 25px;
+    
+    margin: 0 rem(25) ;
+    width: rem(300);
 
     &--reaction {
         color: var(--reaction);
+        background: var(--reaction-bg);
     }
 
     &--memory {
         color: var(--memory);
+        background: var(--memory-bg);
     }
 
     &--verbal {
         color: var(--verbal);
+        background: var(--verbal-bg);
     }
 
     &--visual {
         color: var(--visual);
+        background: var(--visual-bg);
     }
 }
 .catagory {
-    background: var(--catagoty-bg);
-    width: 150px;
-    border-radius: 50px;
+    display: flex;
+    flex:auto;
+    align-self:space-between;
+    width: auto;
+    border-radius: rem(10);
+    margin-top: rem(25);
+    margin-bottom: rem(25);
 }
