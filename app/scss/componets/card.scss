@@ -8,9 +8,12 @@
     border-radius: 25px;
     box-shadow: 10px 10px var(--catagoty-bg);
     width: min-content;
+    justify-content: center;
+    align-items: center;
     
 }
 .results {
+    
     color: var(--result-text);
     background: var(--result-bg-start);
     border-radius: rem(25);
@@ -20,44 +23,52 @@
     text-align: center;
 
     &--circle{
+        display: flex;
+        flex:content;
         background: var(--result-circle-start);
         border-radius: rem(50);
         width: rem(100);
         height: rem(100);
+        justify-content: center;
+        align-items: center;
 
     }
 }
 .summary {
-    
     margin: 0 rem(25) ;
     width: rem(300);
 
     &--reaction {
         color: var(--reaction);
         background: var(--reaction-bg);
+        height: rem(50);
     }
 
     &--memory {
         color: var(--memory);
         background: var(--memory-bg);
+        height: rem(50);
     }
 
     &--verbal {
         color: var(--verbal);
         background: var(--verbal-bg);
+        height: rem(50);
     }
 
     &--visual {
         color: var(--visual);
         background: var(--visual-bg);
+        height: rem(50);
     }
 }
 .catagory {
     display: flex;
     flex:auto;
-    align-self:space-between;
     width: auto;
     border-radius: rem(10);
     margin-top: rem(25);
     margin-bottom: rem(25);
+    justify-content: space-around;
+    align-items: center;
 }
